@@ -1,9 +1,14 @@
+body {
+  background-color: black;
+}
 .color {
   float: left;
   width: 20px;
   height: 20px;
   margin : 5px;
   border: solid;
+  border-color: grey;
+  border-style: outset;
 }
 .green {
   background-color: green;
@@ -21,11 +26,24 @@
   background-image: url("../img/rainbow.jpg");
   background-size: cover;
 }
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+}
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+#buttonsFrame {
+
+}
 #initialD {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../img/InitialD.jpg");
+  background-image: url("../img/InitialD.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
